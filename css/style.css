@@ -5,16 +5,23 @@
     box-sizing: border-box;
 }
 
-.container {
-   max-width: 920px;
-    margin: 0 auto;
-  
-    margin-top: 2rem;
-  
-}
-header{
+.sec1 {
     background-color: #B4D0E7;
- 
+}
+
+.container {
+    display: block;
+    max-width: 920px;
+    position: relative;
+    top: 6rem;
+    margin: auto;
+
+
+}
+
+header {
+    background-color: #B4D0E7;
+
 }
 
 nav {
@@ -23,15 +30,25 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+    position: fixed;
+    left: 0%;
+    right: 0%;
+
 
 }
 
-.link-container ul {
+.link-container ul { 
     font-size: 1rem;
     display: flex;
     list-style: none;
     column-gap: 2rem;
+}
+
+.hvr-li:hover {
+    background-color: rgb(3, 184, 145);
+    color: white;
+    border: 1px solid rgb(97, 96, 96);
+    padding: 0.2rem 0.2rem;
 }
 
 .link-container-1 ul {
@@ -56,53 +73,76 @@ nav {
 }
 
 .start-container button:hover {
-    color: coral;
+    background-color: rgb(3, 184, 145);
+    ;
 }
 
 
-.sec1 {
-    background-color: #B4D0E7;
-  
+.title1 {
+
     text-align: center;
-   
-    margin-bottom: 1rem;
-    line-height: 1.625;
-   font-size: 4rem;
-}
-.row{
-    display: flex;
-    
-    
-}
-.col {
-    font-size: 20px;
-    flex-basis: 40%;
-    padding: 10px;
-
-}
-
-.col-2-1 {
-    flex-basis: 60%;
-    height: 200px;
-    position: relative;
-}
-
-.img1{
-    width: 100%;
-   
-}
-.par1 {
     margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.row {
+    display: flex;
+}
+
+.img1 {
+    width: 150%;
+}
+
+.par1 {
+    margin-bottom: 1rem;
     font-size: clamp(16px, 2vw, 20px);
-    line-height: 1.625;
+    line-height: 1.5;
 }
 
 .hr-btn button {
-    padding-top: 2rem;
     background-color: blue;
     color: white;
     border-style: none;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
     font-weight: bolder;
 
+}
+
+.hr-btn button:hover {
+    background-color: rgb(3, 184, 145);
+    ;
+}
+
+.p4 {
+    text-align: center;
+    margin: 1rem 0;
+}
+.sec2{
+    margin: auto;
+    max-width: 720px;
+    padding-top:120px ;
+    
+}
+.title2 {
+
+    text-align: center;
+    margin-bottom: 2rem; 
+}
+.row1 {
+    display: flex;
+
+   justify-content:space-around ;
+    padding-top: 4rem;
+   text-align: center;
+    width: calc(100% / 3);
+}
+.col1{
+    ;
+border-color: aqua;
+}
+.col2{
+    border-color: aqua; 
+}
+.col3{
+    border-color: aqua;
 }
