@@ -37,7 +37,7 @@ nav {
 
 }
 
-.link-container ul { 
+.link-container ul {
     font-size: 1rem;
     display: flex;
     list-style: none;
@@ -47,7 +47,7 @@ nav {
 .hvr-li:hover {
     background-color: rgb(3, 184, 145);
     color: white;
-    border: 1px solid rgb(97, 96, 96);
+    border: 1px solid rgb(145, 141, 141);
     padding: 0.2rem 0.2rem;
 }
 
@@ -74,7 +74,7 @@ nav {
 
 .start-container button:hover {
     background-color: rgb(3, 184, 145);
-    ;
+    border: 1px solid rgb(145, 141, 141);
 }
 
 
@@ -110,39 +110,77 @@ nav {
 
 .hr-btn button:hover {
     background-color: rgb(3, 184, 145);
-    ;
+    border: 1px solid rgb(145, 141, 141);
 }
 
 .p4 {
     text-align: center;
     margin: 1rem 0;
 }
-.sec2{
+
+.sec2 {
     margin: auto;
-    max-width: 720px;
-    padding-top:120px ;
-    
+    max-width: 820px;
+    padding-top: 120px;
+
 }
+
 .title2 {
 
     text-align: center;
-    margin-bottom: 2rem; 
+    margin-bottom: 2rem;
 }
-.row1 {
-    display: flex;
 
-   justify-content:space-around ;
+.row1 {
+
+    display: flex;
+    justify-content: space-between;
+    column-gap: 3rem;
     padding-top: 4rem;
-   text-align: center;
     width: calc(100% / 3);
 }
-.col1{
-    ;
-border-color: aqua;
+
+.col1 {
+    height: 800px;
+    padding: 0 2rem;
+    border: 1px solid #dcdcdd;
 }
-.col2{
-    border-color: aqua; 
+
+
+.user {
+    display: flex;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 1rem 5rem;
+
 }
-.col3{
-    border-color: aqua;
+
+h6 {
+    color: #bdbdc2;
+}
+
+.ul-sec2 {
+    padding: 1rem 0;
+    display: flex;
+    gap: 1rem;
+
+
+}
+
+.sec2-btn {
+    padding: 1.5rem 0;
+}
+
+.sec2-btn button {
+    background-color: blue;
+    color: white;
+    border-style: none;
+    padding: 1rem 1.5rem;
+    font-weight: bolder;
+
+}
+
+.sec2-btn button:hover {
+    background-color: rgb(3, 184, 145);
+    border: 1px solid rgb(145, 141, 141);
 }
