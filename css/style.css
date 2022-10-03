@@ -33,6 +33,7 @@ nav {
     position: fixed;
     left: 0%;
     right: 0%;
+    border-bottom: 2px solid blue;
 
 
 }
@@ -181,6 +182,58 @@ h6 {
 }
 
 .sec2-btn button:hover {
+    background-color: rgb(3, 184, 145);
+    border: 1px solid rgb(145, 141, 141);
+}
+.row2 {
+    width: 960px;
+    padding: 3rem 0;
+    height: 300px;
+}
+.sec2-rw1 {
+    text-align: center;
+    padding: 1rem ;
+    border: 1px solid #dcdcdd;
+}
+.sec2-rw2 {
+    height: 200px;
+   display: flex;
+   justify-content: space-between;
+    padding: 0.5rem 2rem;
+    border: 1px solid #dcdcdd;
+}
+.sec2-rw3 {
+    flex-basis: 70%;
+     padding: 2rem 2rem;
+    
+ }
+ .img2 {
+    width: 100%;
+}
+.sec3-rw1 {
+    flex-basis: 100%;
+     padding: 1rem 2rem;
+    
+ }
+ .par1-sec3 {
+  
+    font-size: clamp(16px, 2vw, 20px);
+    line-height: 1.5;
+
+}
+.sec3-btn {
+    padding: 1rem 0;
+}
+
+.sec3-btn button {
+    color: black;
+   background-color: white;
+    padding: 1rem 1rem;
+    font-weight: bolder;
+
+}
+
+.sec3-btn button:hover {
     background-color: rgb(3, 184, 145);
     border: 1px solid rgb(145, 141, 141);
 }
