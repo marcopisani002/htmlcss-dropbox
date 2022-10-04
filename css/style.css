@@ -34,6 +34,7 @@ nav {
     left: 0%;
     right: 0%;
     border-bottom: 2px solid blue;
+    z-index: 1;
 
 
 }
