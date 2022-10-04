@@ -185,49 +185,57 @@ h6 {
     background-color: rgb(3, 184, 145);
     border: 1px solid rgb(145, 141, 141);
 }
+
 .row2 {
     width: 960px;
     padding: 3rem 0;
     height: 300px;
 }
+
 .sec2-rw1 {
     text-align: center;
-    padding: 1rem ;
+    padding: 1rem;
     border: 1px solid #dcdcdd;
 }
+
 .sec2-rw2 {
-    height:210px;
-   display: flex;
-   justify-content: space-between;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
     padding: 0.5rem 2rem;
     border: 1px solid #dcdcdd;
 }
+
 .sec2-rw3 {
     flex-basis: 70%;
-     padding: 2rem 2rem;
-    
- }
- .img2 {
+    padding: 2rem 2rem;
+
+}
+
+.img2 {
     width: 100%;
 }
+
 .sec3-rw1 {
     flex-basis: 80%;
-     padding: 1rem 2rem;
-    
- }
- .par1-sec3 {
-  
+    padding: 1rem 2rem;
+
+}
+
+.par1-sec3 {
+
     font-size: clamp(16px, 2vw, 20px);
     line-height: 1.5;
 
 }
+
 .sec3-btn {
     padding: 1rem 0;
 }
 
 .sec3-btn button {
     color: black;
-   background-color: white;
+    background-color: white;
     padding: 1rem 1rem;
     font-weight: bolder;
 
@@ -238,11 +246,12 @@ h6 {
     border: 1px solid rgb(145, 141, 141);
     color: white;
 }
-.card{
-   
-    
+
+.card {
+
+
     display: flex;
-  
+
     justify-content: space-between;
     column-gap: 3rem;
     padding-top: 4rem;
@@ -250,7 +259,7 @@ h6 {
 }
 
 .sec5-btn button {
-    background-color:white;
+    background-color: white;
     color: black;
     border-style: none;
     padding: 1rem 1.5rem;
@@ -261,11 +270,14 @@ h6 {
 .sec5-btn button:hover {
     background-color: rgb(3, 184, 145);
     border: 1px solid rgb(145, 141, 141);
+    color: white;
 }
-.qea{
+
+.qea {
     padding: 2rem 0.5rem;
-border-top:1px solid rgb(83, 81, 81) ;
+    border-top: 1px solid rgb(83, 81, 81);
 }
+
 .sec6 {
     display: flex;
     margin-top: 2rem;
@@ -273,20 +285,42 @@ border-top:1px solid rgb(83, 81, 81) ;
     color: white;
 
 }
-.sec1 { background-color: #B4D0E7;
-    
-}
-.sec7  {
- 
-    margin: auto;
-    max-width: 720px;
-    padding-top: 100px;
+
+.sec1 {
+    background-color: #B4D0E7;
 
 }
-.sec7 ul{
-    list-style: none;
-   padding: 1rem ;
+
+.sec7 {
+
+    margin: auto;
+    max-width: 720px;
+    padding-top: 50px;
+
 }
-.sec7-li{
+
+.sec7 ul {
+    list-style: none;
+    padding: 1rem;
+}
+
+.sec7-li {
+    margin: 1rem;
+}
+
+footer {
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.ita-ftr {
+    height: 15px;
+
+}
+
+.row7 {
+    display: flex;
+    gap: 1rem;
     margin: 1rem;
 }
